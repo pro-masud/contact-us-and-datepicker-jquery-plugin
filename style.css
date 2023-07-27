@@ -6,6 +6,7 @@
 }
 ul{
     list-style: none;
+    padding: 0;
 }
 li{
     list-style: none;
@@ -42,7 +43,7 @@ input:focus,textarea:focus,button:focus{
     left: 0;
     height: 100%;
     width: 100%;
-    background: #333;
+    background: #5FC3BA;
     content: "";
     opacity: .8;
 }
@@ -55,7 +56,7 @@ input:focus,textarea:focus,button:focus{
 
 /*  contact form styling */
 .contact-form{
-    padding: 80px 0 80px;
+    padding: 60px 0 40px;
 }
 
 .contact-form h2{
@@ -78,13 +79,45 @@ input:focus,textarea:focus,button:focus{
 
 .contact-form input[type="submit"]{
     width: auto;
-    padding: 10px 20px;
-    background-color: #5FC3BA;
-    color: #fff;
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #5FC3BA;
     border-radius: 5px;
+    font-weight: 700;
 }
 
 
 .contact-form-details{
-    padding-left: 70px;
+    padding: 150px 0 100px 93px;
 }
+
+.contact-form-details h4{
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 599;
+    margin-bottom: 60px;
+  }
+  
+  .contact-form-details ul li{
+    margin-bottom: 5px;
+  }
+  .contact-form-details ul li a{
+    color: #7d7c7c;
+    display: block;
+  }
+
+  .contact-form-details ul li i{
+    font-size: 18px;
+    color: #5FC3BA;
+    margin-right: 4px;
+  }
+
+  .contact-form-details > a{
+    background-color: #5FC3BA;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 10px 30px;
+    margin-top: 30px;
+    display: inline-block;
+  }
